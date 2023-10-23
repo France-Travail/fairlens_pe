@@ -323,7 +323,6 @@ def _calculate_distance(
     method: str = "dist_to_all",
     p_value: bool = False,
 ) -> pd.DataFrame:
-
     unique = df[sensitive_attrs].drop_duplicates()
 
     dist = []

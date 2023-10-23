@@ -81,7 +81,6 @@ def detect_names_df(
     sensitive_dict = _detect_names_dict(cols, threshold, str_distance, attr_synonym_dict)
 
     if deep_search:
-
         for col in cols:
             # Series containing only the unique values of the analyzed column.
             uniques = pd.Series(df[col].unique())

@@ -177,7 +177,6 @@ def _correlation_matrix_helper(
     cat_num_metric: Callable[[pd.Series, pd.Series], float] = kruskal_wallis,
     cat_cat_metric: Callable[[pd.Series, pd.Series], float] = cramers_v,
 ) -> float:
-
     a_type = utils.infer_distr_type(sr_a)
     b_type = utils.infer_distr_type(sr_b)
 
