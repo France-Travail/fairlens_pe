@@ -36,7 +36,7 @@ def binominal_proportion_p_value(p_obs: float, p_null: float, n: int, alternativ
             The p-value under the null hypothesis.
     """
 
-    k = np.ceil(p_obs * n)
+    k = int(np.ceil(p_obs * n))
     result = binomtest(k, n, p_null, alternative)
     return result.pvalue
 
