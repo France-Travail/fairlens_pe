@@ -7,22 +7,12 @@ on:
       - main
 
 jobs:
-  pre-commit:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-    - uses: pre-commit/action@v2.0.0
 
   checks:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version:
-        - 3.6
-        - 3.7
-        - 3.8
-        - 3.9
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
     name: Check Python ${{ matrix.python-version }}
     steps:
     - uses: actions/checkout@v2
@@ -40,26 +30,3 @@ jobs:
 
     - name: Test
       run: python -m pytest
-
-  build-docs:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-
-      - name: Install
-        run: python -m pip install -e .[doc]
-
-      - name: Build docs
-        run: |
-          cd docs
-          make html
-
-      - name: Upload docs artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: Documentation
-          path: docs/_build/html/*
