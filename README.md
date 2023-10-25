@@ -1,3 +1,6 @@
+This is a fork of the fairlens project. We went back to version 0.1.0 and modified some dependencies in order to include it in gabarit (https://github.com/OSS-Pole-Emploi/gabarit)
+
+
 ![FairLens Logo](docs/_static/FairLens_759x196.png)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][sdk_colab_url]
@@ -9,6 +12,8 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![GitHub Repo stars](https://img.shields.io/github/stars/synthesized-io/fairlens?style=social)
+
+
 
 # FairLens
 
