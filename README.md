@@ -3,15 +3,10 @@ This is a fork of the fairlens project. We went back to version 0.1.0 and modifi
 
 ![FairLens Logo](docs/_static/FairLens_759x196.png)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][sdk_colab_url]
-[![Documentation Status](https://readthedocs.org/projects/fairlens/badge/?version=latest)][documentation_url]
-[![CI](https://github.com/synthesized-io/fairlens/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/synthesized-io/fairlens/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/fairlens)](https://pypi.org/project/fairlens/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dw/fairlens)](https://pypi.org/project/fairlens)
-[![Python version](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue.svg)](https://pypi.org/project/fairlens/)
+[![CI](https://github.com/OSS-Pole-Emploi/gabarit/actions/workflows/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/OSS-Pole-Emploi/gabarit/actions/workflows/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/fairlens)](https://pypi.org/project/fairlens_pe/)
+[![Python version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://pypi.org/project/fairlens_pe/)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![GitHub Repo stars](https://img.shields.io/github/stars/synthesized-io/fairlens?style=social)
 
 
 
