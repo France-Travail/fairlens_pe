@@ -1,9 +1,9 @@
-This is a fork of the fairlens project. We went back to version 0.1.0 and modified some dependencies in order to include it in gabarit (https://github.com/OSS-Pole-Emploi/gabarit)
+This is a fork of the fairlens project. We went back to version 0.1.0 and modified some dependencies in order to include it in gabarit (https://github.com/France-Travail/gabarit)
 
 
 ![FairLens Logo](docs/_static/FairLens_759x196.png)
 
-[![CI](https://github.com/OSS-Pole-Emploi/fairlens_pe/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/OSS-Pole-Emploi/gabarit/actions/workflows/workflows/ci.yml)
+[![CI](https://github.com/France-Travail/fairlens_pe/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/France-Travail/gabarit/actions/workflows/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/fairlens_pe)](https://pypi.org/project/fairlens_pe/)
 [![Python version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://pypi.org/project/fairlens_pe/)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
